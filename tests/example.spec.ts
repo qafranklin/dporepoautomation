@@ -1,6 +1,6 @@
 import {test,expect} from '@playwright/test';
 
-test('Navigate Login Page,', async({page}) => {
+test('Navigate Login Pages,', async({page}) => {
 
 //Open Site
 await page.goto ('https://www.demoblaze.com/index.html#');
